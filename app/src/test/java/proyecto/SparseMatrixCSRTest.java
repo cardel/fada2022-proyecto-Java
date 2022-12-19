@@ -20,7 +20,7 @@ class SparseMatrixCSRTest {
 
     @Test
     void createRepresentation() throws FileNotFoundException, OperationNotSupportedException {
-        SparseMatrixCSC instance = new SparseMatrixCSC();
+        SparseMatrixCSR instance = new SparseMatrixCSR();
 
         //Test 0
         instance.createRepresentation(file0);
