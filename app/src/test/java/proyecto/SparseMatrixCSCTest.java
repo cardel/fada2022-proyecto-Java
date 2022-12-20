@@ -373,8 +373,8 @@ class SparseMatrixCSCTest {
 
     @Test
     void getTransposedMatrix() throws OperationNotSupportedException, FileNotFoundException {
-        SparseMatrixCoordinateFormat instance = new SparseMatrixCoordinateFormat();
-        SparseMatrixCoordinateFormat inst;
+        SparseMatrixCSC instance = new SparseMatrixCSC();
+        SparseMatrixCSC inst;
 
         //Test 0
         instance.createRepresentation(file0);
